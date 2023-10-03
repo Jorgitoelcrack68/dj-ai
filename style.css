@@ -1,0 +1,32 @@
+body{
+    background-image: url("280.jpg");
+    background-size:contain;
+}
+.disco{
+ width: 200px;
+ border-radius: 20px;
+}
+.vol{
+float: left
+}
+.vel{
+float: right;
+}
+#volumen,#velocidad{
+    font-size: larger;
+    padding: 10px;
+    border-radius: 50px; 
+    background-color: rgb(209, 27, 27);
+}
+h1{
+    color: white;
+}
+p{
+    color: white;
+}
+#rep{
+    background-color: rgb(77, 229, 93);
+    padding: 10px;
+    font-size: larger;
+    border-radius: 50px;
+}

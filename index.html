@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>
+            dj AI
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+            <script
+            src="//unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+            <script
+            src="//cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+    </head>
+    <body>
+        <center>
+        <h1>
+        DJ con IA
+        </h1>
+        <p>mueve tu muñeca izquierda parar la velocidad y mueve la derecha  para el volumen de arriba abajo</p>
+        <button id="rep" onclick="function_de_cansion()">
+            reproducir
+        </button>
+        <div class="vel">
+         <img src="gif.gif" class="disco">   
+        <br>
+         <button id="velocidad"> 
+            velocidad
+        </button>
+        </div>
+         <div class="vol">
+            <img src="gif.gif" class="disco">
+            <br>
+        <button id="volumen">
+            volumen
+        </button>
+        </div>
+        </center>
+        <script src="main.js"></script>
+    </body>
+</html>
